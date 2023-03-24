@@ -169,7 +169,7 @@
           <img src="./assets/specialist4.jpg" alt="Specialist Four">
         </div>
         <div class="specialist__details">
-          <h4>Dr. Abigail Brown Nkansa</h4>
+          <h4>Dr. Abigail Brown</h4>
           <small>Cardiology Specialist</small>
         </div>
         <div class="specialist__socials">
@@ -288,6 +288,99 @@
     <div class="swiper-pagination"></div>
   
   </section>
+  <!-- ======================= END OF TESTIMONIALS ======================= -->
+
+
+  <section id="appointment">
+    <div class="container">
+      <div class="info">
+        <h2>Get An Appointment</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, velit! Consequatur, accusamus? Amet, mollitia.</p>
+        
+        <article>
+          <div class="info__icon">
+            <i class='bx bx-user'></i>
+          </div>
+          <div>
+            <h4>Experience Doctors</h4>
+            <small>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure praesentium hic, doloremque amet cum, asperiores accusantium dolor enim a neque fugit officia suscipit, quam sequi optio esse expedita culpa?
+            </small>
+          </div>
+        </article>
+
+        <article>
+          <div class="info__icon">
+            <i class='bx bx-desktop'></i>
+          </div>
+          <div>
+            <h4>Advanced Technology</h4>
+            <small>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure praesentium hic, doloremque amet cum, asperiores accusantium dolor enim a neque fugit.
+            </small>
+          </div>
+        </article>
+
+        <article>
+          <div class="info__icon">
+            <i class='bx bx-first-aid'></i>
+          </div>
+          <div>
+            <h4>Emercy Care</h4>
+            <small>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam iure praesentium hic, doloremque amet cum, asperiores accusantium dolor enim a neque fugit officia suscipit, quam sequi optio esse expedita culpa?
+            </small>
+          </div>
+        </article>
+
+      </div>
+
+      <form action="https://formspree.io/f/mqkodyvo" method="POST">
+        <div class="form__group">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter Your Name" name="Patient's Name" id="name" required>
+        </div>
+        <div class="form__group">
+          <label for="phone">Phone Number</label>
+          <input type="number" placeholder="Enter Phone Number" name="Phone Number" id="phone" required>
+        </div>
+        <div class="form__group">
+          <label for="date">Date</label>
+          <input type="date" placeholder="Choose a date" name="Date" id="date" required>
+        </div>
+        <div class="form__group">
+          <label for="department">Select Department</label>
+          <select name="Department" id="department" required>
+            <option value="">- Please choose an option -</option>
+            <option value="Department One">Surgery Department</option>
+            <option value="Department Two">Anaesthetic Department</option>
+            <option value="Department Three">Orthopedic Department</option>
+            <option value="Department Four">Cardiology Department</option>
+          </select>
+        </div>
+        <div class="form__group">
+          <label for="department">Select Doctor</label>
+          <select name="Doctor" id="doctor" required>
+            <option value="">- Please choose an option -</option>
+            <option value="Doctor One">Dr. Kwadjo Nkansa</option>
+            <option value="Doctor Two">Dr. Fella Makafui</option>
+            <option value="Doctor Three">Dr. Lisa Aedo</option>
+            <option value="Doctor Four">Dr. Abigail Brown</option>
+            <!-- <option value="Doctor Five">Doctor Five</option> -->
+          </select>
+        </div>
+
+        <div class="form__group">
+          <label for="message">Additional Message</label>
+          <textarea name="Added Message" id="message" rows="6" placeholder="Add a message" required></textarea>
+        </div>
+        <input type="submit" value="Submit Request" class="btn-primary">
+
+      </form>
+
+    </div>
+  </section>
+
 
 
   <!-- Swiper JS -->
